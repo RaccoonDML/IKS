@@ -1,0 +1,4 @@
+python main.py --whichgpu 1 --save dmltest --model NLSN --sparseMode pw --reset --chop --rgb_range 1 --chunk_size 144 --n_hashes 4 --n_resblocks 32 --n_feats 256 --res_scale 0.1 --scale 3 --patch_size 144 --pre_train /home/ywhuang/DML/IKS/experiment/nlsn1003_f1/model/model_best_-1.pt --test_only --data_test Set5+Set14+B100+Urban100 --save_result
+python dml_test_ssim.py 3
+python main.py --whichgpu 1 --save dmltest --model NLSN --sparseMode pw --reset --chop --rgb_range 1 --chunk_size 144 --n_hashes 4 --n_resblocks 32 --n_feats 256 --res_scale 0.1 --scale 2 --patch_size 96  --pre_train /home/ywhuang/DML/IKS/experiment/nlsn1004_f2/model/model_best_-1.pt --test_only --data_test Set5+Set14+B100+Urban100 --save_result
+python dml_test_ssim.py 2
