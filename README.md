@@ -1,2 +1,2 @@
 # IKS
-source code for paper: Individual Kernel Sparsity for Efficient Single Image Super-Resolution
+source code for paper: Adjustable Memory-efficient Image Super-resolution via Individual Kernel Sparsity
